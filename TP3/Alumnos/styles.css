@@ -1,0 +1,76 @@
+/*Variables de color generales (si el navegador soporta css)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --fondo: #C9E4E7;
+    --princ: #1E1014;
+    --sec: #CA3CFF;
+    --acent: #B4A0E5;
+    --light: #CAFFD0;
+    --textos: #1D1E18;
+}
+
+body {
+    font-family: 'Open Sans', Roboto; /* Fuente Principal */
+    background-color: var(--fondo);
+}
+
+.hero {
+    margin: 0px;
+    width:auto;
+    height: 25%;
+    background-color: var(--acent);
+    padding: 5%; /*Agrega padding interno al div*/
+    text-align: center; /*Centra el contenido del div*/
+    border-radius: 50px;
+    border: 1px solid var(--princ);
+}
+
+h1 {
+    color: var(--textos);
+    font-weight: 500;
+    font-size: 40px;
+} 
+
+.tab {
+    width:auto;
+    padding: 10%;
+}
+
+.tab h2{
+    color: var(--textos);
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid var(--princ);
+    padding: 10px;
+    color: var(--textos);
+}
+
+td a{
+    color: var(--sec);
+}
+
+table {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+footer {
+    margin: 0px;
+    width:auto;
+    height: 5%;
+    background-color: var(--princ);
+    padding: 2%; /*Agrega padding interno al div*/
+    text-align: center; /*Centra el contenido del div*/
+}
+
+footer a{
+    color: var(--light);
+    font-size: 30px;
+}
