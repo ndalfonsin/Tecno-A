@@ -1,0 +1,33 @@
+:root{
+    --fondo: white;
+    --texto: black;
+}
+
+body{
+    background-color: var(--fondo);
+}
+
+li {
+    font-size: 30px;
+}
+
+ul {
+    background-color: beige;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.iphone {
+    width: 25%;
+}
+
+#iphone15 {
+    width: 40%;
+}
